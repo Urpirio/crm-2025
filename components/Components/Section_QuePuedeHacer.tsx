@@ -1,6 +1,7 @@
 import Card_ListQuePuedeHacer from "../Subcomponents/Card_ListQuePuedeHacer";
 import Image from "next/image";
 import Stats_CRM from "@/../public/Stats_CRM.svg";
+import * as motion from "motion/react-client";
 
 export default function Section_QuePuedeHacer() {
   return (
@@ -17,13 +18,17 @@ export default function Section_QuePuedeHacer() {
       </div>
       <div className="flex  justify-center items-center  ">
         <Card_ListQuePuedeHacer />
-        <div className="w-[45%] flex justify-center items-center ">
+        <motion.div
+          whileInView={{ opacity: 1 }}
+          initial={{ opacity: 0 }}
+          className="w-[45%] flex justify-center items-center "
+        >
           <Image
             className="w-[70%] h-[70%] object-contain"
             src={Stats_CRM}
             alt="Descripción de la imagen"
           />
-        </div>
+        </motion.div>
       </div>
     </section>
   );
