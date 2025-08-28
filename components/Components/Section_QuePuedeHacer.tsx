@@ -1,7 +1,30 @@
-import React from 'react'
+import Card_ListQuePuedeHacer from "../Subcomponents/Card_ListQuePuedeHacer";
+import Image from "next/image";
+import Stats_CRM from "@/../public/Stats_CRM.svg";
 
 export default function Section_QuePuedeHacer() {
   return (
-    <div>Section_QuePuedeHacer</div>
-  )
+    <section className="py-10 px-30 flex flex-col items-center ">
+      <div className="text-center flex justify-center flex-col items-center gap-4 mb-8">
+        <h2 className="text-5xl font-semibold">
+          ¿Qué puede hacer URACLOUD por tu negocio?
+        </h2>
+        <p className="w-[60%] font-light text-lg">
+          Transforma la gestión de tu empresa. Con URACLOUD, obtén el control
+          total que necesitas para tomar decisiones inteligentes e impulsar tu
+          crecimiento.
+        </p>
+      </div>
+      <div className="flex  justify-center items-center  ">
+        <Card_ListQuePuedeHacer />
+        <div className="w-[45%] flex justify-center items-center ">
+          <Image
+            className="w-[70%] h-[70%] object-contain"
+            src={Stats_CRM}
+            alt="Descripción de la imagen"
+          />
+        </div>
+      </div>
+    </section>
+  );
 }
