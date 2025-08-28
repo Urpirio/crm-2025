@@ -7,12 +7,13 @@ import Section_QuePuedeHacer from "../../components/Components/Section_QuePuedeH
 
 export default function page() {
   return (
-   <main>
-    <Section_Hero/>
-    <Section_CentralizarClientes/>
-    <Section_QuePuedeHacer/>
-    <Section_Contactanos/>
-    <Section_NuestrosClientes/>
-   </main>
-  )
+    <main>
+      <Section_Hero />
+    
+      <Section_CentralizarClientes />
+      <Section_QuePuedeHacer />
+      <Section_Contactanos />
+      <Section_NuestrosClientes />
+    </main>
+  );
 }
