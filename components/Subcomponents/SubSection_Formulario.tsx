@@ -1,8 +1,12 @@
-import React from "react";
+import * as motion from "motion/react-client";
 
 export default function SubSection_Formulario() {
   return (
-    <div className="w-1/3">
+    <motion.div
+      whileInView={{ opacity: 1, translateX: 0 }}
+      initial={{ opacity: 0, translateX: 200 }}
+      className="w-1/3"
+    >
       <article className="bg-[#E7E7E7] p-10 rounded-2xl ">
         <div>
           <h3 className="text-2xl font-bold">Contáctanos</h3>
@@ -53,6 +57,6 @@ export default function SubSection_Formulario() {
           Enviar mensaje
         </button>
       </article>
-    </div>
+    </motion.div>
   );
 }
