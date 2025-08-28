@@ -1,9 +1,21 @@
 import BackNuestrosClientes from "@/../public/Card_NuestrosClinetes.svg";
 import Image from "next/image";
+import * as motion from "motion/react-client";
 
 export default function Card_NuestrosClientes() {
   return (
-    <article className="w-90 justify-center items-center relative flex">
+    <motion.article
+      whileInView={{ opacity: 1, rotate: -10 }}
+      initial={{ rotate: 0, opacity: 0 }}
+      animate={{ rotate: 300 }}
+      transition={{
+        repeatDelay: 2,
+        duration: 0.3,
+        repeat: Infinity,
+        ease: "linear",
+      }}
+      className="w-90  justify-center transition-all duration-300 items-center relative flex"
+    >
       <Image
         className=" object-cover"
         src={BackNuestrosClientes}
@@ -16,6 +28,6 @@ export default function Card_NuestrosClientes() {
         </p>
         <h3>- Flex Lab</h3>
       </div>
-    </article>
+    </motion.article>
   );
 }
