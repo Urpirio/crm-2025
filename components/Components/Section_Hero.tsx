@@ -1,6 +1,7 @@
 import Logo_Crm from "@/../public/Logo_Crm.svg";
 import Image from "next/image";
 import Screens_Crm from "@/../public/Screen_Crm.svg";
+import * as motion from "motion/react-client";
 
 export default function Section_Hero() {
   return (
@@ -33,13 +34,17 @@ export default function Section_Hero() {
           Contáctanos
         </button>
       </div>
-      <div className="w-full justify-center flex ">
+      <motion.div
+        whileHover={{ opacity: 1, scale: 1 }}
+        initial={{  opacity: 0,scale: 0.9 }}
+        className=" transition-all duration-300 w-full justify-center flex "
+      >
         <Image
           src={Screens_Crm}
           alt="Screens"
           className="w-[80%] h-1/2 object-contain border rounded-2xl"
         />
-      </div>
+      </motion.div>
     </section>
   );
 }
