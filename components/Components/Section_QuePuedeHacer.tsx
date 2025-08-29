@@ -5,12 +5,12 @@ import * as motion from "motion/react-client";
 
 export default function Section_QuePuedeHacer() {
   return (
-    <section className="py-10 lg:px-30 flex flex-col items-center overflow-hidden">
-      <div className="text-center flex justify-center flex-col items-center gap-4 mb-8">
+    <section className="py-10  lg:px-30 flex flex-col items-center overflow-hidden" id="que-puede-hacer">
+      <div className="text-center flex justify-center flex-col items-center gap-4 mb-8 ">
         <h2 className="lg:text-5xl text-3xl font-semibold">
           ¿Qué puede hacer URACLOUD por tu negocio?
         </h2>
-        <p className="w-[60%] min-w-90 font-light text-xl">
+        <p className="w-[60%] min-w-90 font-light sm:text-xl px-3">
           Transforma la gestión de tu empresa. Con URACLOUD, obtén el control
           total que necesitas para tomar decisiones inteligentes e impulsar tu
           crecimiento.
