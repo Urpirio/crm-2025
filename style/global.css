@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
-
+:root{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
 
 @theme{
     --color-primary: #007AFFCC;
