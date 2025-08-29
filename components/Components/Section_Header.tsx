@@ -38,17 +38,33 @@ export default function Section_Header({
           />
           {MenuOpen && <span className="font-bold text-lg ml-2">URACLOUD</span>}
         </div>
-        <nav className="lg:flex w-1/3 min-w-120 hidden  justify-between">
-          <Link onClick={() => setMenuOpen(false)} href="/#inicio">
+        <nav className="lg:flex w-1/3 min-w-120 hidden  justify-between ">
+          <Link
+            onClick={() => setMenuOpen(false)}
+            href="/#inicio"
+            className="hover:text-blue-600 transition-all duration-300"
+          >
             Inicio
           </Link>
-          <Link onClick={() => setMenuOpen(false)} href="/#sobre-nosotros">
+          <Link
+            onClick={() => setMenuOpen(false)}
+            href="/#sobre-nosotros"
+            className="hover:text-blue-600 transition-all duration-300"
+          >
             Sobre Nosotros
           </Link>
-          <Link onClick={() => setMenuOpen(false)} href="/#contactanos">
+          <Link
+            onClick={() => setMenuOpen(false)}
+            href="/#contactanos"
+            className="hover:text-blue-600 transition-all duration-300"
+          >
             Contactanos
           </Link>
-          <Link onClick={() => setMenuOpen(false)} href="/#reseñas">
+          <Link
+            onClick={() => setMenuOpen(false)}
+            href="/#reseñas"
+            className="hover:text-blue-600 transition-all duration-300"
+          >
             Reseñas
           </Link>
         </nav>
@@ -76,16 +92,32 @@ export default function Section_Header({
           className="lg:hidden border mt-90 border-blue-100 shadow-2xs  w-[95%] absolute p-5 rounded-2xl bg-white"
         >
           <motion.nav className="flex flex-col  items-center gap-5 ">
-            <Link onClick={() => setMenuOpen(false)} href="/#inicio">
+            <Link
+              onClick={() => setMenuOpen(false)}
+              href="/#inicio"
+              className="hover:text-blue-600 transition-all duration-300"
+            >
               Inicio
             </Link>
-            <Link onClick={() => setMenuOpen(false)} href="/#sobre-nosotros">
+            <Link
+              onClick={() => setMenuOpen(false)}
+              href="/#sobre-nosotros"
+              className="hover:text-blue-600 transition-all duration-300"
+            >
               Sobre Nosotros
             </Link>
-            <Link onClick={() => setMenuOpen(false)} href="/#contactanos">
+            <Link
+              onClick={() => setMenuOpen(false)}
+              href="/#contactanos"
+              className="hover:text-blue-600 transition-all duration-300"
+            >
               Contactanos
             </Link>
-            <Link onClick={() => setMenuOpen(false)} href="/#reseñas">
+            <Link
+              onClick={() => setMenuOpen(false)}
+              href="/#reseñas"
+              className="hover:text-blue-600 transition-all duration-300"
+            >
               Reseñas
             </Link>
             <button className="bg-blue-600 text-white py-2 px-4 rounded-3xl">
