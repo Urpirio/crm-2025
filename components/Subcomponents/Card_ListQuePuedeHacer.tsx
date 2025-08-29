@@ -24,7 +24,7 @@ export default function Card_ListQuePuedeHacer() {
   ];
 
   return (
-    <div className="w-[45%] min-w-80">
+    <div className="w-[45%] min-w-90">
       {Data_List.map((item, index) => {
         if (index === Data_List.length - 1) {
           return (
@@ -41,8 +41,8 @@ export default function Card_ListQuePuedeHacer() {
                 <div className=" w-[1px] bg-primary"></div>
               </div>
               <div className="flex flex-col  w-5/6">
-                <h3 className="text-xl font-semibold">{item.title}</h3>
-                <p className="font-light text-sm">{item.description}</p>
+                <h3 className=" sm:text-xl text-lg font-semibold">{item.title}</h3>
+                <p className="font-light text-xs sm:text-sm">{item.description}</p>
               </div>
             </motion.article>
           );
@@ -59,11 +59,11 @@ export default function Card_ListQuePuedeHacer() {
               <div className="bg-blue-600 absolute z-10 text-white font-bold rounded-full w-10 h-10 flex items-center justify-center">
                 {index + 1}
               </div>
-              <div className="h-26 w-[1px] bg-primary"></div>
+              <div className="sm:h-27 h-20 w-[1px] bg-primary"></div>
             </div>
             <div className="flex flex-col  w-5/6">
-              <h3 className="text-xl font-semibold">{item.title}</h3>
-              <p className="font-light text-sm">{item.description}</p>
+              <h3 className="sm:text-xl text-lg font-semibold">{item.title}</h3>
+              <p className="font-light text-xs sm:text-sm">{item.description}</p>
             </div>
           </motion.article>
         );
