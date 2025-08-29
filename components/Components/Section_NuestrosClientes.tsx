@@ -6,7 +6,7 @@ export default function Section_NuestrosClientes() {
       <h2 className="lg:text-5xl text-3xl text-center font-semibold">
         Nuestros clientes lo confirman
       </h2>
-      <div className="flex flex-wrap  justify-center lg:justify-between gap-5 w-full">
+      <div className="flex flex-wrap  justify-center lg:justify-between gap-10 w-full">
         <Card_NuestrosClientes />
       </div>
     </section>
