@@ -20,7 +20,7 @@ export default function Layout({ children }: React.PropsWithChildren) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
       </head>
-      <body className={poppins.className} onTouchMove={()=>setMenuOpen(false)}>
+      <body className={`${poppins.className} overflow-x-hidden`} onTouchMove={()=>setMenuOpen(false)}>
         <Section_Header setMenuOpen={setMenuOpen} MenuOpen={MenuOpen} />
         {children}
         <Section_Footer />
