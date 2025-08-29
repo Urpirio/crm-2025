@@ -6,21 +6,18 @@ import * as motion from "motion/react-client";
 export default function Section_Hero() {
   return (
     <section
-      // style={{
-      //   background: "radial-gradient(#007AFF,#007AFF,white,white)",
-      // }}
       className="pt-40 pb-10 bg-radial from-[#007AFF] via-white to-white gap-10 flex flex-col items-center justify-center min-h-screen"
     >
       <div className="flex flex-col items-center gap-5 ">
-        <h1 className="text-7xl font-semibold mb-4 jflex justify-center items-center gap-2">
+        <h1 className="lg:text-7xl text-xl md:text-4xl font-semibold mb-4 flex flex-col justify-center items-center gap-2">
           <span>Es hora de darle una mejor </span>
           <div className="flex items-center gap-4">
             <span>organización a tu</span>
-            <div className="border z-0 bg-white rounded-2xl rotate-[-50deg] p-1 border-gray-300 shadow-2xs">
+            <div className="border hidden lg:block z-0 bg-white rounded-2xl rotate-[-50deg] p-1 border-gray-300 shadow-2xs">
               <Image
                 src={Logo_Crm}
                 alt="Logo"
-                className="h-10 w-10 object-contain border rounded-2xl"
+                className="h-10 w-10 object-contain  border rounded-2xl"
               />
             </div>
             <span>empresa</span>
@@ -35,8 +32,8 @@ export default function Section_Hero() {
         </button>
       </div>
       <motion.div
-        whileHover={{ opacity: 1, scale: 1 }}
-        initial={{  opacity: 0,scale: 0.9 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        initial={{  opacity: 0,scale: 0.95 }}
         className=" transition-all duration-300 w-full justify-center flex "
       >
         <Image

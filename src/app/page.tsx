@@ -7,7 +7,7 @@ import Section_QuePuedeHacer from "../../components/Components/Section_QuePuedeH
 
 export default function page() {
   return (
-    <main>
+    <main className="flex flex-col  w-full  items-center border">
       <Section_Hero />
     
       <Section_CentralizarClientes />

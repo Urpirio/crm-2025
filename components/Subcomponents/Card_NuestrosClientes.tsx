@@ -14,15 +14,15 @@ export default function Card_NuestrosClientes() {
         repeat: Infinity,
         ease: "linear",
       }}
-      className="w-90  justify-center transition-all duration-300 items-center relative flex"
+      className="lg:w-90 w-80  justify-center transition-all duration-300 items-center relative flex"
     >
       <Image
-        className=" object-cover"
+        className=" h-full z-10 absolute w-full object-contain"
         src={BackNuestrosClientes}
         alt="Nuestros Clientes"
       />
-      <div className="absolute w-full h-full flex flex-col gap-5  py-20 px-15 ">
-        <p>
+      <div className=" w-full h-full flex z-20 flex-col gap-5  py-20 px-20 ">
+        <p className="text-xs">
           {` "Desde que implementamos este CRM, nuestra eficiencia ha mejorado un
           40%. ¡Es una herramienta imprescindible para nuestro equipo!"`}
         </p>

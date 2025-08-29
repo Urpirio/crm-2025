@@ -24,7 +24,7 @@ export default function Card_ListQuePuedeHacer() {
   ];
 
   return (
-    <div className="w-[45%]">
+    <div className="w-[45%] min-w-80">
       {Data_List.map((item, index) => {
         if (index === Data_List.length - 1) {
           return (

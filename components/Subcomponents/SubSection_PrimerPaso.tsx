@@ -7,10 +7,10 @@ export default function SubSection_PrimerPaso() {
     <motion.div
       whileInView={{ opacity: 1, translateX: 0 }}
       initial={{ opacity: 0, translateX: -200 }}
-      className="flex w-1/3 flex-col gap-5"
+      className="flex w-1/3 flex-col gap-5 min-w-80"
     >
       <div className="flex flex-col gap-5">
-        <h3 className="text-6xl text-white">
+        <h3 className="lg:text-6xl text-3xl text-white">
           El primer paso hacia el crecimiento <br /> de tu negocio
         </h3>
         <p className="font-light text-white">

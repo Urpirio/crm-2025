@@ -5,7 +5,7 @@ export default function SubSection_Formulario() {
     <motion.div
       whileInView={{ opacity: 1, translateX: 0 }}
       initial={{ opacity: 0, translateX: 200 }}
-      className="w-1/3"
+      className="w-1/3 min-w-80"
     >
       <article className="bg-[#E7E7E7] p-10 rounded-2xl ">
         <div>
