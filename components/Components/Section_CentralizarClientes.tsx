@@ -3,14 +3,16 @@ import * as motion from "motion/react-client";
 
 export default function Section_CentralizarClientes() {
   return (
-    <section className="lg:px-30 py-10 flex flex-col gap-10 justify-center items-center overflow-hidden">
-      <motion.h2
-        whileInView={{ opacity: 1 }}
-        initial={{ opacity: 0 }}
-        className="lg:text-5xl text-3xl font-semibold mb-4 w-[60%] min-w-80"
-      >
-        Centraliza tus clientes, potencia a tu equipo, impulsa tus ventas
-      </motion.h2>
+    <section className="lg:px-30 py-10 flex flex-col gap-10 justify-center  items-center overflow-hidden" id="sobre-nosotros">
+      <div className="flex flex-col lg:items-start items-center justify-center">
+        <motion.h2
+          whileInView={{ opacity: 1 }}
+          initial={{ opacity: 0 }}
+          className="lg:text-5xl text-3xl font-semibold mb-4 w-[60%] min-w-80"
+        >
+          Centraliza tus clientes, potencia a tu equipo, impulsa tus ventas
+        </motion.h2>
+      </div>
       <div className="flex flex-wrap  gap-5 lg:justify-between justify-center ">
         <Card_CentralizaClientes />
       </div>
