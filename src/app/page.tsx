@@ -5,7 +5,7 @@ import Section_NuestrosClientes from "../../components/Components/Section_Nuestr
 import Section_QuePuedeHacer from "../../components/Components/Section_QuePuedeHacer";
 
 
-export default function page() {
+export default function Page() {
   return (
     <main className="flex flex-col   items-center ">
       <Section_Hero />

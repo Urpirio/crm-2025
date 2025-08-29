@@ -8,9 +8,6 @@ export default function Section_NuestrosClientes() {
       </h2>
       <div className="flex flex-wrap  justify-center lg:justify-between gap-5 w-full">
         <Card_NuestrosClientes />
-        <Card_NuestrosClientes />
-        <Card_NuestrosClientes />
-        <Card_NuestrosClientes />
       </div>
     </section>
   );
