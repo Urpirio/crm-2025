@@ -4,12 +4,10 @@ import Section_Hero from "../../components/Components/Section_Hero";
 import Section_NuestrosClientes from "../../components/Components/Section_NuestrosClientes";
 import Section_QuePuedeHacer from "../../components/Components/Section_QuePuedeHacer";
 
-
 export default function Page() {
   return (
     <main className="flex flex-col   items-center ">
       <Section_Hero />
-    
       <Section_CentralizarClientes />
       <Section_QuePuedeHacer />
       <Section_Contactanos />
