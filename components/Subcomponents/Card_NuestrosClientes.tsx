@@ -16,14 +16,14 @@ export default function Card_NuestrosClientes() {
         repeat: Infinity,
         ease: "linear",
       }}
-      className="xl:w-90 w-80  justify-center transition-all duration-300 items-center relative flex"
+      className=" w-70  justify-center transition-all duration-300 items-center relative flex"
     >
       <Image
         className=" h-full z-10 absolute w-full object-contain"
         src={BackNuestrosClientes}
         alt="Nuestros Clientes"
       />
-      <div className=" w-full h-full flex z-20 flex-col gap-5  py-20 px-20 ">
+      <div className=" w-full h-full flex z-20 flex-col gap-5  pb-20 pt-30 px-15 ">
         <p className="text-xs">
           {` ${client.opinion}`}
         </p>

@@ -28,7 +28,7 @@ export default function Section_Header({
       >
         <div
           className={`flex items-center text-blue-600 lg:w-1/3  ${
-            MenuOpen ? "border-0" : "lg:border border-gray-200"
+            MenuOpen ? "border-0" : "lg:border-0 border-gray-200"
           } p-2 lg:p-2 rounded-4xl bg-white`}
         >
           <Image
