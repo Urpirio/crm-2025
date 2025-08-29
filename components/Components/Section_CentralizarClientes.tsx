@@ -3,7 +3,7 @@ import * as motion from "motion/react-client";
 
 export default function Section_CentralizarClientes() {
   return (
-    <section className="lg:px-30 py-10 flex flex-col gap-10 justify-center items-center ">
+    <section className="lg:px-30 py-10 flex flex-col gap-10 justify-center items-center overflow-hidden">
       <motion.h2
         whileInView={{ opacity: 1 }}
         initial={{ opacity: 0 }}
