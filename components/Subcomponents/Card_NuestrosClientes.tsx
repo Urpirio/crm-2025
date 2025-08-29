@@ -14,7 +14,7 @@ export default function Card_NuestrosClientes() {
         repeat: Infinity,
         ease: "linear",
       }}
-      className="lg:w-90 w-80  justify-center transition-all duration-300 items-center relative flex"
+      className="xl:w-90 w-80  justify-center transition-all duration-300 items-center relative flex"
     >
       <Image
         className=" h-full z-10 absolute w-full object-contain"
