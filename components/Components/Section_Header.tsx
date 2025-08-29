@@ -39,10 +39,18 @@ export default function Section_Header({
           {MenuOpen && <span className="font-bold text-lg ml-2">URACLOUD</span>}
         </div>
         <nav className="lg:flex w-1/3 min-w-120 hidden  justify-between">
-          <Link href="">Inicio</Link>
-          <Link href="">Sobre Nosotros</Link>
-          <Link href="">Contactanos</Link>
-          <Link href="">Reseñas</Link>
+          <Link onClick={() => setMenuOpen(false)} href="/#inicio">
+            Inicio
+          </Link>
+          <Link onClick={() => setMenuOpen(false)} href="/#sobre-nosotros">
+            Sobre Nosotros
+          </Link>
+          <Link onClick={() => setMenuOpen(false)} href="/#contactanos">
+            Contactanos
+          </Link>
+          <Link onClick={() => setMenuOpen(false)} href="/#reseñas">
+            Reseñas
+          </Link>
         </nav>
         <div className="  lg:w-1/3 flex justify-end">
           <button className="bg-blue-600 h-12 items-center lg:flex hidden text-white py-2 px-4 rounded-4xl">
@@ -68,10 +76,18 @@ export default function Section_Header({
           className="lg:hidden border mt-90 border-blue-100 shadow-2xs  w-[95%] absolute p-5 rounded-2xl bg-white"
         >
           <motion.nav className="flex flex-col  items-center gap-5 ">
-            <Link href="">Inicio</Link>
-            <Link href="">Sobre Nosotros</Link>
-            <Link href="">Contactanos</Link>
-            <Link href="">Reseñas</Link>
+            <Link onClick={() => setMenuOpen(false)} href="/#inicio">
+              Inicio
+            </Link>
+            <Link onClick={() => setMenuOpen(false)} href="/#sobre-nosotros">
+              Sobre Nosotros
+            </Link>
+            <Link onClick={() => setMenuOpen(false)} href="/#contactanos">
+              Contactanos
+            </Link>
+            <Link onClick={() => setMenuOpen(false)} href="/#reseñas">
+              Reseñas
+            </Link>
             <button className="bg-blue-600 text-white py-2 px-4 rounded-3xl">
               Empieza ahora
             </button>
