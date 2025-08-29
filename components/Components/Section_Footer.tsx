@@ -15,25 +15,25 @@ export default function Section_Footer() {
           <h4 className="font-bold">URACLOUD</h4>
           <nav className="flex flex-col gap-2 ">
             <Link
-              href=""
+              href="/#inicio"
               className="font-extralight hover:opacity-80 transition-all duration-300 cursor-pointer"
             >
               Inicio
             </Link>
             <Link
-              href=""
+              href="/#sobre-nosotros"
               className="font-extralight hover:opacity-80 transition-all duration-300 cursor-pointer"
             >
               Sobre Nosotros
             </Link>
             <Link
-              href=""
+              href="/#contactanos"
               className="font-extralight hover:opacity-80 transition-all duration-300 cursor-pointer"
             >
               Contactanos
             </Link>
             <Link
-              href=""
+              href="/#reseñas"
               className="font-extralight hover:opacity-80 transition-all duration-300 cursor-pointer"
             >
               Reseñas
