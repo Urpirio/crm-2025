@@ -28,7 +28,7 @@ export default function SubSection_PrimerPaso() {
               Correo asistencia{" "}
             </h3>
             <span className="font-light text-white">
-              correouracloud@uracloud.com
+               info@uracloud.com.do
             </span>
           </div>
         </article>
